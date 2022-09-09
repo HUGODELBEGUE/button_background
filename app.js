@@ -8,5 +8,6 @@ buttonElement.addEventListener('click', () => {
     changeToFunkyColor(backgroundBody);
 });
 buttonRandom.addEventListener('click', () => {
-        randomColor(backgroundBody);
+    console.log(buttonRandom);
+    randomColor(backgroundBody);
 });

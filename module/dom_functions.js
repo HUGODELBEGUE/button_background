@@ -8,7 +8,9 @@ const changeToFunkyColor = (domElement) => {
 }
 
 const randomColor = (domElement) => {
-    setInterval(changeToFunkyColor(domElement), 200);
+    setInterval(() => {
+        changeToFunkyColor(domElement)
+    }, 500);
 }
 
 export { changeToFunkyColor, randomColor };
