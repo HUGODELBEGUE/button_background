@@ -7,6 +7,10 @@ const changeToFunkyColor = (domElement) => {
     domElement.style.transition = "background .5s";
 }
 
+// const cleanToColor = () => {
+//     clearInterval(randomColor);
+// }
+
 const randomColor = (domElement) => {
     setInterval(() => {
         changeToFunkyColor(domElement)
